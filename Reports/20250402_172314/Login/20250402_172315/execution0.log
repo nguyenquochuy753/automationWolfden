@@ -3621,3 +3621,4 @@ Command: [145d2d10d46d73ec4185f963076d2eef, findElements {using=xpath, value=//i
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58117}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58117/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:7863/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 145d2d10d46d73ec4185f963076d2eef</property>
 </record>
+</log>
