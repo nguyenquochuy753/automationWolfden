@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>profileNavigation</name>
+   <tag></tag>
+   <elementGuidId>24320d26-c414-4872-b884-5b98f3a2358f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='wolfden']/div[2]/div/div/div[8]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(8) > .rounded-lg</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bb348b07-b206-4347-af8d-decba10e450b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rounded-lg p-2 group-hover:bg-primary-300 bg-normal-600</value>
+      <webElementGuid>eaa45d0a-f827-4df9-b6b3-9fc8d4b458d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wolfden&quot;)/div[@class=&quot;flex w-full items-start&quot;]/div[@class=&quot;left-bar px-2 z-10&quot;]/div[@class=&quot;h-full py-1 w-full xl:max-w-[300px] max-w-[64px] bg-normal-700 border border-normal-500 rounded-lg overflow-y-auto overscroll-contain&quot;]/div[@class=&quot;group flex items-center justify-start gap-[14px] py-[17px] px-[18px] text-center cursor-pointer&quot;]/div[@class=&quot;rounded-lg p-2 group-hover:bg-primary-300 bg-normal-600&quot;]</value>
+      <webElementGuid>366c54ca-bfc9-4fc9-ba5f-334d7a60ace3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wolfden']/div[2]/div/div/div[8]/div</value>
+      <webElementGuid>6b5e05f0-d382-4780-9a76-aaf1a4cfe9c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipslip'])[1]/following::div[20]</value>
+      <webElementGuid>c8057f28-05e1-4962-a6a7-c807ffa538cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Join'])[1]/following::div[23]</value>
+      <webElementGuid>d11ab9c7-387d-4996-81c4-f51abc00a2af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Howls'])[1]/preceding::div[11]</value>
+      <webElementGuid>8f2cb349-7d16-4473-a829-6354974fa61a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tips'])[1]/preceding::div[13]</value>
+      <webElementGuid>22978774-4270-4b98-923f-0ac027c3ba08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[8]/div</value>
+      <webElementGuid>b23bfeb8-a7b3-43be-aa57-e47fc9c8ca18</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

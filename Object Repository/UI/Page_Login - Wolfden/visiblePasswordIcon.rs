@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>visiblePasswordIcon</name>
+   <tag></tag>
+   <elementGuidId>d4a32147-bbea-46ef-9251-b6a129725c12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__layout']/div/div/div/div/div/div[2]/form/div[2]/div/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>16224e59-78f8-46b9-b546-fc6f8450f197</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wd-icon text-white !text-white text-lg wd-visibility</value>
+      <webElementGuid>9ceb6d82-7523-46ce-987f-d19242672886</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__layout&quot;)/div[@class=&quot;bg-black w-full h-screen relative flex flex-col items-center justify-center&quot;]/div[@class=&quot;w-full h-full relative flex flex-col items-center justify-center&quot;]/div[@class=&quot;relative w-full h-full flex justify-center p-4&quot;]/div[@class=&quot;relative md:w-[600px] sm:w-[500px] w-full mx-auto flex flex-col items-center justify-center -top-16&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;w-full bg-normal-600 p-4 sm:p-8 bg-grey-100 rounded-[40px] shadow-md border-4 border-solid border-normal-500&quot;]/form[@class=&quot;w-full flex flex-col items-center justify-center gap-6&quot;]/div[@class=&quot;flex flex-col gap-1 w-full&quot;]/div[@class=&quot;relative w-full&quot;]/div[@class=&quot;cursor-pointer absolute right-3 top-2/4 -translate-y-2/4 flex items-center justify-center&quot;]/i[@class=&quot;wd-icon text-white !text-white text-lg wd-visibility&quot;]</value>
+      <webElementGuid>d7884b3a-c470-4b4d-9cdf-610bfdac02d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__layout']/div/div/div/div/div/div[2]/form/div[2]/div/div/i</value>
+      <webElementGuid>2994347d-1ea1-4a4c-b1a8-53a5bb447ab2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/i</value>
+      <webElementGuid>7d27ff26-b951-4356-b116-4eb92eb57d37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
