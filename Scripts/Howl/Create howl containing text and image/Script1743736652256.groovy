@@ -17,41 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'authorizepackage.authorizekeyword.authorize'('racebook')
+text = 'Test'
 
-WebUI.setText(findTestObject('UI/Page_Login - Wolfden/usernameInput'), 'nguyenquochuy7531111')
+CustomKeywords.'loginpackage.loginkeyword.login'('nguyenqhuy753101', 'huy123')
 
-WebUI.delay(5)
+WebUI.click(findTestObject('UI/Page_Home_Wolfden/newHowlBtn'))
 
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'h')
+WebUI.sendKeys(findTestObject('UI/Page_CreateHowl_Wolfden/writehowlTextbox'), text)
 
-WebUI.delay(0.5)
+WebUI.uploadFile(findTestObject('UI/Page_CreateHowl_Wolfden/uploadFileBtn'), 'C:\\\\Users\\\\HUY\\\\Downloads\\\\minions.png')
 
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'u')
+WebUI.click(findTestObject('UI/Page_CreateHowl_Wolfden/howlBtn'))
 
-WebUI.delay(0.5)
+WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'y')
+WebUI.verifyElementText(findTestObject('UI/Page_Howl_Wolfden/yourHowlWasSentTxt'), 'Your Howl was sent')
 
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), '1')
+WebUI.verifyElementText(findTestObject('UI/Page_Howl_Wolfden/displayNameTxt'), 'nguyenqhuy7531')
 
-WebUI.delay(0.5)
+WebUI.verifyElementText(findTestObject('UI/Page_Howl_Wolfden/usernameTxt'), '@nguyenqhuy753101')
 
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), '2')
+WebUI.verifyElementText(findTestObject('UI/Page_Howl_Wolfden/enteredTextTxt'), text)
 
-WebUI.delay(0.5)
+WebUI.verifyElementPresent(findTestObject('UI/Page_Howl_Wolfden/uploadedImage'), 0)
 
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), '3')
-
-WebUI.delay(0.5)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('UI/Page_Login - Wolfden/loginBtn'))
-
-WebUI.delay(3)
-
-WebUI.verifyElementText(findTestObject('UI/Page_Login - Wolfden/invalidUsernameOrPassword'), 'Invalid username or password.')
+CustomKeywords.'howlpackage.howlkeyword.deleteHowl'()
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>uploadedVideo</name>
+   <tag></tag>
+   <elementGuidId>e14fbbd9-b435-4eb1-80a4-ae96de225c1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='wolfden']/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div/div/div/div/video</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>video.w-full</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Your browser does not support HTML video.&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>video</value>
+      <webElementGuid>458f39d8-18b2-4651-b980-ebce59233856</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>controls</name>
+      <type>Main</type>
+      <value>controls</value>
+      <webElementGuid>b3cd2922-51bd-4f45-b0ed-e5419220c799</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>muted</name>
+      <type>Main</type>
+      <value>muted</value>
+      <webElementGuid>eeebec0c-6ace-4fdf-8895-46d06a8050ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loop</name>
+      <type>Main</type>
+      <value>loop</value>
+      <webElementGuid>71593467-02a6-42d4-a926-eec37ba1c0f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full</value>
+      <webElementGuid>57113de0-13de-46cc-b0ef-88c637862ccc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          Your browser does not support HTML video.
+        </value>
+      <webElementGuid>f6d55867-eea2-49ec-aea8-d1b20038559d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wolfden&quot;)/div[@class=&quot;flex w-full items-start&quot;]/div[@class=&quot;flex-1 px-2 pb-2&quot;]/main[@class=&quot;home-page&quot;]/div[@class=&quot;feed-layout&quot;]/div[@class=&quot;max-h-full overflow-auto space-y-4 py-4 pt-8&quot;]/div[@class=&quot;bg-normal-850 rounded-lg flex justify-center gap-4 w-full&quot;]/div[@class=&quot;flex flex-col w-full gap-4 p-4 cursor-pointer&quot;]/div[@class=&quot;md:max-w-[600px] w-full mx-auto&quot;]/div[2]/div[1]/div[@class=&quot;grid gap-3 my-3&quot;]/div[@class=&quot;w-full relative&quot;]/div[@class=&quot;rounded-xl overflow-hidden container gap-0.5 one&quot;]/div[@class=&quot;flex justify-center items-center w-full overflow-hidden media-1&quot;]/video[@class=&quot;w-full&quot;]</value>
+      <webElementGuid>aba86938-5e53-454b-a288-0b6a80abc2ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wolfden']/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div/div/div/div/video</value>
+      <webElementGuid>b5ddbb7c-22fb-433e-ad70-e3559e6d9dae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::video[1]</value>
+      <webElementGuid>715aba9a-6cbf-455f-99fb-f178c6215fa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refresh'])[1]/following::video[1]</value>
+      <webElementGuid>a3825e43-b575-4ee1-9528-013c56abd3ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/preceding::video[1]</value>
+      <webElementGuid>de816c2f-ffed-48bf-9002-9c60adc74e77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rehowl'])[1]/preceding::video[1]</value>
+      <webElementGuid>e97189ff-6169-4ae7-bd6b-a9504abe1a45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your browser does not support HTML video.']/parent::*</value>
+      <webElementGuid>da3e738e-e784-4a01-9995-416abfaf1402</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//video</value>
+      <webElementGuid>2cebc110-fe8c-4269-88c4-00905dff3f06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//video[(text() = '
+          Your browser does not support HTML video.
+        ' or . = '
+          Your browser does not support HTML video.
+        ')]</value>
+      <webElementGuid>2622ee86-e122-4504-928f-a6ccc34e591f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,125 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 134.0.6998.179,,,04-04-2025 12:51:35,04-04-2025 12:54:47,3m - 11.290s,PASSED
+,,,,,,,
+Test Cases/Login/Login with empty username and password,Chrome 134.0.6998.179,,,04-04-2025 12:51:36,04-04-2025 12:51:54,18.181s,PASSED
+"authorizepackage.authorizekeyword.authorize(""racebook"")",Chrome 134.0.6998.179,,,04-04-2025 12:51:36,04-04-2025 12:51:51,14.921s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/loginBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:51:51,04-04-2025 12:51:51,0.348s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Login - Wolfden/requiredUsernameTxt""), ""Username is required"")",Chrome 134.0.6998.179,,,04-04-2025 12:51:51,04-04-2025 12:51:52,0.537s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Login - Wolfden/requiredPasswordTxt""), ""Password is required"")",Chrome 134.0.6998.179,,,04-04-2025 12:51:52,04-04-2025 12:51:52,0.269s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:51:52,04-04-2025 12:51:54,1.784s,PASSED
+,,,,,,,
+Test Cases/Login/Login with the empty password,Chrome 134.0.6998.179,,,04-04-2025 12:51:54,04-04-2025 12:52:10,15.924s,PASSED
+"authorizepackage.authorizekeyword.authorize(""racebook"")",Chrome 134.0.6998.179,,,04-04-2025 12:51:54,04-04-2025 12:52:08,13.831s,PASSED
+"setText(findTestObject(""UI/Page_Login - Wolfden/usernameInput""), ""gggggggggg"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:08,04-04-2025 12:52:08,0.698s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/loginBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:52:08,04-04-2025 12:52:09,0.412s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Login - Wolfden/requiredPasswordTxt""), ""Password is required"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:09,04-04-2025 12:52:09,0.563s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:52:09,04-04-2025 12:52:10,0.316s,PASSED
+,,,,,,,
+Test Cases/Login/Login with the empty username,Chrome 134.0.6998.179,,,04-04-2025 12:52:10,04-04-2025 12:52:24,14.188s,PASSED
+"authorizepackage.authorizekeyword.authorize(""racebook"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:10,04-04-2025 12:52:22,12.301s,PASSED
+"setText(findTestObject(""UI/Page_Login - Wolfden/passwordInput""), ""huy123"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:22,04-04-2025 12:52:23,0.619s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/loginBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:52:23,04-04-2025 12:52:23,0.359s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Login - Wolfden/requiredUsernameTxt""), ""Username is required"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:23,04-04-2025 12:52:24,0.496s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:52:24,04-04-2025 12:52:24,0.308s,PASSED
+,,,,,,,
+Test Cases/Login/Login with the password less than six characters,Chrome 134.0.6998.179,,,04-04-2025 12:52:24,04-04-2025 12:52:38,14.483s,PASSED
+"authorizepackage.authorizekeyword.authorize(""racebook"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:24,04-04-2025 12:52:36,11.873s,PASSED
+"setText(findTestObject(""UI/Page_Login - Wolfden/usernameInput""), ""nguyenqhuy75310111"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:36,04-04-2025 12:52:36,0.656s,PASSED
+"setText(findTestObject(""UI/Page_Login - Wolfden/passwordInput""), ""huy12"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:36,04-04-2025 12:52:37,0.641s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/loginBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:52:37,04-04-2025 12:52:37,0.379s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Login - Wolfden/passwordLarger6CharactersTxt""), ""Password must be at least 6 character"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:37,04-04-2025 12:52:38,0.512s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:52:38,04-04-2025 12:52:38,0.325s,PASSED
+,,,,,,,
+Test Cases/Login/Password is encrypted,Chrome 134.0.6998.179,,,04-04-2025 12:52:38,04-04-2025 12:53:03,25.061s,PASSED
+"authorizepackage.authorizekeyword.authorize(""racebook"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:38,04-04-2025 12:52:52,13.720s,PASSED
+"setText(findTestObject(""UI/Page_Login - Wolfden/usernameInput""), ""nguyenquochuy753101"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:52,04-04-2025 12:52:53,0.667s,PASSED
+delay(3),Chrome 134.0.6998.179,,,04-04-2025 12:52:53,04-04-2025 12:52:56,3.010s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""h"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:56,04-04-2025 12:52:56,0.359s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:52:56,04-04-2025 12:52:57,0.509s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""u"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:57,04-04-2025 12:52:57,0.330s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:52:57,04-04-2025 12:52:58,0.514s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""y"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:58,04-04-2025 12:52:58,0.271s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""1"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:58,04-04-2025 12:52:58,0.296s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:52:58,04-04-2025 12:52:59,0.508s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""2"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:59,04-04-2025 12:52:59,0.296s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:52:59,04-04-2025 12:52:59,0.510s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""3"")",Chrome 134.0.6998.179,,,04-04-2025 12:52:59,04-04-2025 12:53:00,0.278s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:00,04-04-2025 12:53:00,0.511s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""1"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:00,04-04-2025 12:53:01,0.326s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:01,04-04-2025 12:53:01,0.509s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""1"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:01,04-04-2025 12:53:01,0.350s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:01,04-04-2025 12:53:02,0.518s,PASSED
+"verifyElementPresent(findTestObject(""UI/Page_Login - Wolfden/passwordInput""), 0)",Chrome 134.0.6998.179,,,04-04-2025 12:53:02,04-04-2025 12:53:02,0.346s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/visiblePasswordIcon""))",Chrome 134.0.6998.179,,,04-04-2025 12:53:02,04-04-2025 12:53:03,0.343s,PASSED
+"verifyElementNotPresent(findTestObject(""UI/Page_Login - Wolfden/passwordInput""), 0)",Chrome 134.0.6998.179,,,04-04-2025 12:53:03,04-04-2025 12:53:03,0.403s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:53:03,04-04-2025 12:53:03,0.331s,PASSED
+,,,,,,,
+Test Cases/Login/Login with wrong username,Chrome 134.0.6998.179,,,04-04-2025 12:53:03,04-04-2025 12:53:36,32.144s,PASSED
+"authorizepackage.authorizekeyword.authorize(""racebook"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:04,04-04-2025 12:53:16,12.876s,PASSED
+"setText(findTestObject(""UI/Page_Login - Wolfden/usernameInput""), ""nguyenquochuy7531111"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:16,04-04-2025 12:53:17,0.645s,PASSED
+delay(5),Chrome 134.0.6998.179,,,04-04-2025 12:53:17,04-04-2025 12:53:22,5.012s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""h"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:22,04-04-2025 12:53:22,0.341s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:22,04-04-2025 12:53:23,0.518s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""u"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:23,04-04-2025 12:53:23,0.320s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:23,04-04-2025 12:53:24,0.505s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""y"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:24,04-04-2025 12:53:24,0.364s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""1"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:24,04-04-2025 12:53:24,0.306s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:24,04-04-2025 12:53:25,0.508s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""2"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:25,04-04-2025 12:53:25,0.330s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:25,04-04-2025 12:53:26,0.513s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""3"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:26,04-04-2025 12:53:26,0.301s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:26,04-04-2025 12:53:27,0.508s,PASSED
+delay(5),Chrome 134.0.6998.179,,,04-04-2025 12:53:27,04-04-2025 12:53:32,5.016s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/loginBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:53:32,04-04-2025 12:53:32,0.381s,PASSED
+delay(3),Chrome 134.0.6998.179,,,04-04-2025 12:53:32,04-04-2025 12:53:35,3.019s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Login - Wolfden/invalidUsernameOrPassword""), ""Invalid username or password."")",Chrome 134.0.6998.179,,,04-04-2025 12:53:35,04-04-2025 12:53:35,0.267s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:53:35,04-04-2025 12:53:36,0.286s,PASSED
+,,,,,,,
+Test Cases/Login/Login with wrong password,Chrome 134.0.6998.179,,,04-04-2025 12:53:36,04-04-2025 12:54:08,32.407s,PASSED
+"authorizepackage.authorizekeyword.authorize(""racebook"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:36,04-04-2025 12:53:48,12.485s,PASSED
+"setText(findTestObject(""UI/Page_Login - Wolfden/usernameInput""), ""nguyenquochuy753101"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:48,04-04-2025 12:53:49,0.688s,PASSED
+delay(5),Chrome 134.0.6998.179,,,04-04-2025 12:53:49,04-04-2025 12:53:54,5.007s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""h"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:54,04-04-2025 12:53:54,0.355s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:54,04-04-2025 12:53:55,0.507s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""u"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:55,04-04-2025 12:53:55,0.266s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:55,04-04-2025 12:53:55,0.517s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""y"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:55,04-04-2025 12:53:56,0.299s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""1"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:56,04-04-2025 12:53:56,0.281s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:56,04-04-2025 12:53:57,0.508s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""2"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:57,04-04-2025 12:53:57,0.344s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:57,04-04-2025 12:53:57,0.511s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""3"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:57,04-04-2025 12:53:58,0.335s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:58,04-04-2025 12:53:58,0.505s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""1"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:58,04-04-2025 12:53:59,0.345s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:59,04-04-2025 12:53:59,0.505s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""1"")",Chrome 134.0.6998.179,,,04-04-2025 12:53:59,04-04-2025 12:53:59,0.351s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:53:59,04-04-2025 12:54:00,0.515s,PASSED
+delay(5),Chrome 134.0.6998.179,,,04-04-2025 12:54:00,04-04-2025 12:54:05,5.009s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/loginBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:54:05,04-04-2025 12:54:05,0.362s,PASSED
+delay(2),Chrome 134.0.6998.179,,,04-04-2025 12:54:05,04-04-2025 12:54:07,2.004s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Login - Wolfden/invalidUsernameOrPassword""), ""Invalid username or password."")",Chrome 134.0.6998.179,,,04-04-2025 12:54:07,04-04-2025 12:54:08,0.309s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:54:08,04-04-2025 12:54:08,0.289s,PASSED
+,,,,,,,
+Test Cases/Login/Login with the valid credentials,Chrome 134.0.6998.179,,,04-04-2025 12:54:08,04-04-2025 12:54:47,38.630s,PASSED
+"authorizepackage.authorizekeyword.authorize(""racebook"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:08,04-04-2025 12:54:20,12.083s,PASSED
+delay(5),Chrome 134.0.6998.179,,,04-04-2025 12:54:20,04-04-2025 12:54:25,5.009s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/usernameInput""))",Chrome 134.0.6998.179,,,04-04-2025 12:54:25,04-04-2025 12:54:26,0.392s,PASSED
+"setText(findTestObject(""UI/Page_Login - Wolfden/usernameInput""), ""nguyenqhuy753101"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:26,04-04-2025 12:54:26,0.591s,PASSED
+delay(5),Chrome 134.0.6998.179,,,04-04-2025 12:54:26,04-04-2025 12:54:31,5.005s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/passwordInput""))",Chrome 134.0.6998.179,,,04-04-2025 12:54:31,04-04-2025 12:54:32,0.380s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""h"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:32,04-04-2025 12:54:32,0.303s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:54:32,04-04-2025 12:54:32,0.511s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""u"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:32,04-04-2025 12:54:33,0.340s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:54:33,04-04-2025 12:54:33,0.507s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""y"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:33,04-04-2025 12:54:33,0.312s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""1"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:33,04-04-2025 12:54:34,0.325s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:54:34,04-04-2025 12:54:34,0.513s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""2"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:34,04-04-2025 12:54:35,0.309s,PASSED
+delay(0.5),Chrome 134.0.6998.179,,,04-04-2025 12:54:35,04-04-2025 12:54:35,0.501s,PASSED
+"sendKeys(findTestObject(""Object Repository/UI/Page_Login - Wolfden/passwordInput""), ""3"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:35,04-04-2025 12:54:35,0.333s,PASSED
+delay(5),Chrome 134.0.6998.179,,,04-04-2025 12:54:35,04-04-2025 12:54:40,5.022s,PASSED
+"click(findTestObject(""UI/Page_Login - Wolfden/loginBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:54:40,04-04-2025 12:54:41,0.364s,PASSED
+"click(findTestObject(""UI/Page_Home_Wolfden/profileNavigation""))",Chrome 134.0.6998.179,,,04-04-2025 12:54:41,04-04-2025 12:54:45,4.264s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Profile_Wolfden/displayNameTxt""), ""nguyenqhuy7531"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:45,04-04-2025 12:54:46,0.863s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Profile_Wolfden/usernameTxt""), ""@nguyenqhuy753101"")",Chrome 134.0.6998.179,,,04-04-2025 12:54:46,04-04-2025 12:54:46,0.294s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:54:46,04-04-2025 12:54:47,0.294s,PASSED

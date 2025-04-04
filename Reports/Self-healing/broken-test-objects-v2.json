@@ -1,3 +1,44 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UI/Page_Login - Wolfden/newHowlBtn",
+      "brokenLocator": "//button[@type\u003d\u0027button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UI/Page_Login - Wolfden/newHowlBtn_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UI/Page_Home_Wolfden/newHowlBtn",
+      "brokenLocator": "//button[@type\u003d\u0027button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UI/Page_Home_Wolfden/newHowlBtn_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UI/Page_CreateHowl_Wolfden/writehowlTextbox",
+      "brokenLocator": "//textarea[@id\u003d\u0027post-howl-textarea\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UI/Page_CreateHowl_Wolfden/writehowlTextbox_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/UI/Page_Howl_Wolfden/yourHowlTxt",
+      "brokenLocator": "//div[@id\u003d\u0027wolfden\u0027]/div[2]/div[2]/main/div/div[2]/div/div/div/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Refresh\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/UI/Page_Howl_Wolfden/yourHowlTxt_neighbor.png"
+    }
+  ]
 }

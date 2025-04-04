@@ -12,3 +12,17 @@ def static "authorizepackage.authorizekeyword.authorize"(
     (new authorizepackage.authorizekeyword()).authorize(
         	password)
 }
+
+
+def static "loginpackage.loginkeyword.login"(
+    	String username	
+     , 	String password	) {
+    (new loginpackage.loginkeyword()).login(
+        	username
+         , 	password)
+}
+
+
+def static "howlpackage.howlkeyword.deleteHowl"() {
+    (new howlpackage.howlkeyword()).deleteHowl()
+}

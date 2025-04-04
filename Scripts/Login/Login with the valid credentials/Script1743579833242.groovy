@@ -19,9 +19,37 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'authorizepackage.authorizekeyword.authorize'('racebook')
 
+WebUI.delay(5)
+
+WebUI.click(findTestObject('UI/Page_Login - Wolfden/usernameInput'))
+
 WebUI.setText(findTestObject('UI/Page_Login - Wolfden/usernameInput'), 'nguyenqhuy753101')
 
-WebUI.setText(findTestObject('UI/Page_Login - Wolfden/passwordInput'), 'huy123')
+WebUI.delay(5)
+
+WebUI.click(findTestObject('UI/Page_Login - Wolfden/passwordInput'))
+
+WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'h')
+
+WebUI.delay(0.5)
+
+WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'u')
+
+WebUI.delay(0.5)
+
+WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'y')
+
+WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), '1')
+
+WebUI.delay(0.5)
+
+WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), '2')
+
+WebUI.delay(0.5)
+
+WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), '3')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('UI/Page_Login - Wolfden/loginBtn'))
 

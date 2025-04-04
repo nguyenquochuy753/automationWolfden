@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create howl containing text and video</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>539627f2-fd05-4ad3-b3cc-9300872043b9</testCaseGuid>
+</TestCaseEntity>

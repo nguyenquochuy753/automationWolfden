@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/Login/Login with empty username and password","testCaseId":"Test Cases/Login/Login with empty username and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with the empty password","testCaseId":"Test Cases/Login/Login with the empty password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with the empty username","testCaseId":"Test Cases/Login/Login with the empty username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with the password less than six characters","testCaseId":"Test Cases/Login/Login with the password less than six characters","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Password is encrypted","testCaseId":"Test Cases/Login/Password is encrypted","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with wrong username","testCaseId":"Test Cases/Login/Login with wrong username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with wrong password","testCaseId":"Test Cases/Login/Login with wrong password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with the valid credentials","testCaseId":"Test Cases/Login/Login with the valid credentials","iterationVariableName":""}

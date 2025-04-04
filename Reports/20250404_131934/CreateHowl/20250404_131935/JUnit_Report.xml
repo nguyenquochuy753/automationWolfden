@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateHowl" time="277.563" tests="5" failures="0" errors="0">
+   <testsuite name="CreateHowl" tests="5" failures="0" errors="0" time="277.563" skipped="0" timestamp="04-04-2025T13:19:39" hostname="HUY - LAPTOP-HFM62E22" id="Test Suites/CreateHowl">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\HUY\\git\\automationWolfden\\Reports\\20250404_131934\\CreateHowl\\20250404_131935"/>
+         <property name="logFiles" value="C:\\Users\\HUY\\git\\automationWolfden\\Reports\\20250404_131934\\CreateHowl\\20250404_131935\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HUY - LAPTOP-HFM62E22"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.179"/>
+         <property name="hostAddress" value="192.168.1.14"/>
+         <property name="sessionId" value="9c758c65df0b28408b0a27d5afabad17"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Howl/Create howl containing only text" time="57.213" classname="Test Cases/Howl/Create howl containing only text" status="PASSED">
+         <system-out><![CDATA[04-04-2025T13:19:39 - [TEST_CASE][PASSED] - Test Cases/Howl/Create howl containing only text: Test Cases/Howl/Create howl containing only text
+
+04-04-2025T13:19:40 - [TEST_STEP][PASSED] - text = "Test": null
+
+04-04-2025T13:19:40 - [TEST_STEP][PASSED] - loginpackage.loginkeyword.login("nguyenqhuy753101", "huy123"): loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:19:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T13:19:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T13:19:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T13:19:43 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T13:19:49 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T13:19:50 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T13:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T13:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput' is clicked on
+
+04-04-2025T13:19:55 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:19:56 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:19:56 - [MESSAGE][PASSED] - Keys 'g' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:19:56 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:19:57 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:19:57 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:19:58 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:19:58 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:19:58 - [MESSAGE][PASSED] - Keys 'e' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:19:59 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:19:59 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:00 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:00 - [MESSAGE][PASSED] - Keys 'q' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:01 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:01 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:02 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:02 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:02 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:03 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:03 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:04 - [MESSAGE][PASSED] - Keys '7' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:04 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:05 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:05 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:05 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:06 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:06 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:07 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:07 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:08 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:08 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:08 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput' is clicked on
+
+04-04-2025T13:20:14 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:20:15 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:15 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:20:16 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:16 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:20:17 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:17 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:20:17 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:18 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:20:18 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:19 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:20:19 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:20:25 - [MESSAGE][PASSED] - loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:20:25 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Home_Wolfden/newHowlBtn")): Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:20:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Page_CreateHowl_Wolfden/writehowlTextbox"), text): Keys 'Test' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/writehowlTextbox'
+
+04-04-2025T13:20:29 - [MESSAGE][PASSED] - Keys 'Test' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/writehowlTextbox'
+
+04-04-2025T13:20:29 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_CreateHowl_Wolfden/howlBtn")): Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:20:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-04-2025T13:20:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T13:20:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/yourHowlWasSentTxt"), "Your Howl was sent"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:20:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:20:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/displayNameTxt"), "nguyenqhuy7531"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:20:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:20:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/usernameTxt"), "@nguyenqhuy753101"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:20:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:20:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/enteredTextTxt"), text): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/enteredTextTxt' are matched.
+
+04-04-2025T13:20:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/enteredTextTxt' are matched.
+
+04-04-2025T13:20:33 - [TEST_STEP][PASSED] - howlpackage.howlkeyword.deleteHowl(): howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/moreOptionBtn' is hovered
+
+04-04-2025T13:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteBtn' is clicked on
+
+04-04-2025T13:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteConfirmationBtn' is clicked on
+
+04-04-2025T13:20:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasDeletedTxt' are matched.
+
+04-04-2025T13:20:36 - [MESSAGE][PASSED] - howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:20:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T13:20:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Howl/Create howl containing only video" time="57.233" classname="Test Cases/Howl/Create howl containing only video" status="PASSED">
+         <system-out><![CDATA[04-04-2025T13:20:36 - [TEST_CASE][PASSED] - Test Cases/Howl/Create howl containing only video: Test Cases/Howl/Create howl containing only video
+
+04-04-2025T13:20:37 - [TEST_STEP][PASSED] - loginpackage.loginkeyword.login("nguyenqhuy753101", "huy123"): loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:20:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T13:20:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T13:20:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T13:20:38 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T13:20:41 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T13:20:44 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T13:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T13:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput' is clicked on
+
+04-04-2025T13:20:48 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:49 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:49 - [MESSAGE][PASSED] - Keys 'g' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:49 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:50 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:50 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:51 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:51 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:51 - [MESSAGE][PASSED] - Keys 'e' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:52 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:52 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:53 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:53 - [MESSAGE][PASSED] - Keys 'q' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:53 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:54 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:54 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:55 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:55 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:56 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:56 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:56 - [MESSAGE][PASSED] - Keys '7' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:57 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:57 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:58 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:58 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:59 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:20:59 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:20:59 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:00 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:00 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:01 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:01 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput' is clicked on
+
+04-04-2025T13:21:07 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:21:07 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:08 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:21:08 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:08 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:21:09 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:09 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:21:10 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:10 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:21:11 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:11 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:21:11 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:21:17 - [MESSAGE][PASSED] - loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:21:17 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Home_Wolfden/newHowlBtn")): Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:21:21 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UI/Page_CreateHowl_Wolfden/uploadFileBtn"), "C:\\Users\\HUY\\Downloads\\minion.mp4"): File 'C:\\Users\\HUY\\Downloads\\minion.mp4' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/uploadFileBtn'
+
+04-04-2025T13:21:22 - [MESSAGE][PASSED] - File 'C:\\Users\\HUY\\Downloads\\minion.mp4' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/uploadFileBtn'
+
+04-04-2025T13:21:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-04-2025T13:21:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T13:21:24 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_CreateHowl_Wolfden/howlBtn")): Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:21:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-04-2025T13:21:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:21:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/yourHowlWasSentTxt"), "Your Howl was sent"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:21:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:21:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/displayNameTxt"), "nguyenqhuy7531"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:21:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:21:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/usernameTxt"), "@nguyenqhuy753101"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:21:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:21:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Page_Howl_Wolfden/moreOptionBtn"), 0): Object 'Object Repository/UI/Page_Howl_Wolfden/moreOptionBtn' is present
+
+04-04-2025T13:21:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2025T13:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Page_Howl_Wolfden/moreOptionBtn' is present
+
+04-04-2025T13:21:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Page_Howl_Wolfden/uploadedVideo"), 0): Object 'Object Repository/UI/Page_Howl_Wolfden/uploadedVideo' is present
+
+04-04-2025T13:21:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2025T13:21:31 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Page_Howl_Wolfden/uploadedVideo' is present
+
+04-04-2025T13:21:31 - [TEST_STEP][PASSED] - howlpackage.howlkeyword.deleteHowl(): howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:21:31 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/moreOptionBtn' is hovered
+
+04-04-2025T13:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteBtn' is clicked on
+
+04-04-2025T13:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteConfirmationBtn' is clicked on
+
+04-04-2025T13:21:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasDeletedTxt' are matched.
+
+04-04-2025T13:21:33 - [MESSAGE][PASSED] - howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:21:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T13:21:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Howl/Create howl containning only image" time="57.022" classname="Test Cases/Howl/Create howl containning only image" status="PASSED">
+         <system-out><![CDATA[04-04-2025T13:21:34 - [TEST_CASE][PASSED] - Test Cases/Howl/Create howl containning only image: Test Cases/Howl/Create howl containning only image
+
+04-04-2025T13:21:34 - [TEST_STEP][PASSED] - loginpackage.loginkeyword.login("nguyenqhuy753101", "huy123"): loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:21:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T13:21:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T13:21:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T13:21:35 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T13:21:38 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T13:21:41 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T13:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T13:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput' is clicked on
+
+04-04-2025T13:21:45 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:46 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:46 - [MESSAGE][PASSED] - Keys 'g' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:46 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:47 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:47 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:48 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:48 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:48 - [MESSAGE][PASSED] - Keys 'e' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:49 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:49 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:50 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:50 - [MESSAGE][PASSED] - Keys 'q' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:50 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:51 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:51 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:52 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:52 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:52 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:53 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:53 - [MESSAGE][PASSED] - Keys '7' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:54 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:54 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:55 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:55 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:55 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:56 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:56 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:57 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:57 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:21:57 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:21:58 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput' is clicked on
+
+04-04-2025T13:22:04 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:22:04 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:05 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:22:05 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:05 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:22:06 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:06 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:22:07 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:07 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:22:08 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:08 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:22:08 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:22:14 - [MESSAGE][PASSED] - loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:22:14 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Home_Wolfden/newHowlBtn")): Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:22:18 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UI/Page_CreateHowl_Wolfden/uploadFileBtn"), "C:\\Users\\HUY\\Downloads\\minions.png"): File 'C:\\Users\\HUY\\Downloads\\minions.png' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/uploadFileBtn'
+
+04-04-2025T13:22:18 - [MESSAGE][PASSED] - File 'C:\\Users\\HUY\\Downloads\\minions.png' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/uploadFileBtn'
+
+04-04-2025T13:22:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-04-2025T13:22:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T13:22:20 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_CreateHowl_Wolfden/howlBtn")): Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:22:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-04-2025T13:22:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:22:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/yourHowlWasSentTxt"), "Your Howl was sent"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:22:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:22:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/displayNameTxt"), "nguyenqhuy7531"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:22:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:22:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/usernameTxt"), "@nguyenqhuy753101"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:22:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:22:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Page_Howl_Wolfden/moreOptionBtn"), 0): Object 'Object Repository/UI/Page_Howl_Wolfden/moreOptionBtn' is present
+
+04-04-2025T13:22:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2025T13:22:27 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Page_Howl_Wolfden/moreOptionBtn' is present
+
+04-04-2025T13:22:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Page_Howl_Wolfden/uploadedImage"), 0): Object 'Object Repository/UI/Page_Howl_Wolfden/uploadedImage' is present
+
+04-04-2025T13:22:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2025T13:22:27 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Page_Howl_Wolfden/uploadedImage' is present
+
+04-04-2025T13:22:27 - [TEST_STEP][PASSED] - howlpackage.howlkeyword.deleteHowl(): howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/moreOptionBtn' is hovered
+
+04-04-2025T13:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteBtn' is clicked on
+
+04-04-2025T13:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteConfirmationBtn' is clicked on
+
+04-04-2025T13:22:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasDeletedTxt' are matched.
+
+04-04-2025T13:22:30 - [MESSAGE][PASSED] - howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:22:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T13:22:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Howl/Create howl containing text and image" time="52.266" classname="Test Cases/Howl/Create howl containing text and image" status="PASSED">
+         <system-out><![CDATA[04-04-2025T13:22:31 - [TEST_CASE][PASSED] - Test Cases/Howl/Create howl containing text and image: Test Cases/Howl/Create howl containing text and image
+
+04-04-2025T13:22:31 - [TEST_STEP][PASSED] - text = "Test": null
+
+04-04-2025T13:22:31 - [TEST_STEP][PASSED] - loginpackage.loginkeyword.login("nguyenqhuy753101", "huy123"): loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:22:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T13:22:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T13:22:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T13:22:32 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T13:22:35 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T13:22:38 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T13:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T13:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput' is clicked on
+
+04-04-2025T13:22:42 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:42 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:42 - [MESSAGE][PASSED] - Keys 'g' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:43 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:43 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:44 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:44 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:45 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:45 - [MESSAGE][PASSED] - Keys 'e' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:45 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:46 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:46 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:47 - [MESSAGE][PASSED] - Keys 'q' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:47 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:47 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:48 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:48 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:49 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:49 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:49 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:50 - [MESSAGE][PASSED] - Keys '7' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:50 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:51 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:51 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:52 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:52 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:52 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:53 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:53 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:54 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:22:54 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:22:55 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput' is clicked on
+
+04-04-2025T13:23:00 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:01 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:01 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:02 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:02 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:02 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:03 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:03 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:04 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:04 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:04 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:05 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:23:10 - [MESSAGE][PASSED] - loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:23:10 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Home_Wolfden/newHowlBtn")): Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:23:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Page_CreateHowl_Wolfden/writehowlTextbox"), text): Keys 'Test' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/writehowlTextbox'
+
+04-04-2025T13:23:15 - [MESSAGE][PASSED] - Keys 'Test' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/writehowlTextbox'
+
+04-04-2025T13:23:15 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UI/Page_CreateHowl_Wolfden/uploadFileBtn"), "C:\\Users\\HUY\\Downloads\\minions.png"): File 'C:\\Users\\HUY\\Downloads\\minions.png' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/uploadFileBtn'
+
+04-04-2025T13:23:16 - [MESSAGE][PASSED] - File 'C:\\Users\\HUY\\Downloads\\minions.png' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/uploadFileBtn'
+
+04-04-2025T13:23:16 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_CreateHowl_Wolfden/howlBtn")): Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:23:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-04-2025T13:23:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T13:23:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/yourHowlWasSentTxt"), "Your Howl was sent"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:23:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:23:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/displayNameTxt"), "nguyenqhuy7531"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:23:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:23:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/usernameTxt"), "@nguyenqhuy753101"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:23:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:23:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/enteredTextTxt"), text): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/enteredTextTxt' are matched.
+
+04-04-2025T13:23:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/enteredTextTxt' are matched.
+
+04-04-2025T13:23:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Page_Howl_Wolfden/uploadedImage"), 0): Object 'Object Repository/UI/Page_Howl_Wolfden/uploadedImage' is present
+
+04-04-2025T13:23:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2025T13:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Page_Howl_Wolfden/uploadedImage' is present
+
+04-04-2025T13:23:20 - [TEST_STEP][PASSED] - howlpackage.howlkeyword.deleteHowl(): howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/moreOptionBtn' is hovered
+
+04-04-2025T13:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteBtn' is clicked on
+
+04-04-2025T13:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteConfirmationBtn' is clicked on
+
+04-04-2025T13:23:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasDeletedTxt' are matched.
+
+04-04-2025T13:23:23 - [MESSAGE][PASSED] - howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:23:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T13:23:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Howl/Create howl containing text and video" time="53.593" classname="Test Cases/Howl/Create howl containing text and video" status="PASSED">
+         <system-out><![CDATA[04-04-2025T13:23:23 - [TEST_CASE][PASSED] - Test Cases/Howl/Create howl containing text and video: Test Cases/Howl/Create howl containing text and video
+
+04-04-2025T13:23:23 - [TEST_STEP][PASSED] - text = "Test": null
+
+04-04-2025T13:23:23 - [TEST_STEP][PASSED] - loginpackage.loginkeyword.login("nguyenqhuy753101", "huy123"): loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:23:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T13:23:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T13:23:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T13:23:24 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T13:23:28 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T13:23:30 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T13:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T13:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput' is clicked on
+
+04-04-2025T13:23:35 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:35 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:35 - [MESSAGE][PASSED] - Keys 'g' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:36 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:36 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:37 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:37 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:37 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:38 - [MESSAGE][PASSED] - Keys 'e' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:38 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:39 - [MESSAGE][PASSED] - Keys 'n' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:39 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:39 - [MESSAGE][PASSED] - Keys 'q' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:40 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:40 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:41 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:41 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:42 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:42 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:42 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:43 - [MESSAGE][PASSED] - Keys '7' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:43 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:44 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:44 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:44 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:45 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:45 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:46 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:46 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:47 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:47 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T13:23:47 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput' is clicked on
+
+04-04-2025T13:23:53 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:54 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:54 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:54 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:55 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:55 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:56 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:56 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:56 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:57 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:23:57 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T13:23:58 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T13:24:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T13:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T13:24:03 - [MESSAGE][PASSED] - loginpackage.loginkeyword.login is PASSED
+
+04-04-2025T13:24:03 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Home_Wolfden/newHowlBtn")): Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/newHowlBtn' is clicked on
+
+04-04-2025T13:24:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Page_CreateHowl_Wolfden/writehowlTextbox"), text): Keys 'Test' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/writehowlTextbox'
+
+04-04-2025T13:24:08 - [MESSAGE][PASSED] - Keys 'Test' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/writehowlTextbox'
+
+04-04-2025T13:24:08 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UI/Page_CreateHowl_Wolfden/uploadFileBtn"), "C:\\Users\\HUY\\Downloads\\minion.mp4"): File 'C:\\Users\\HUY\\Downloads\\minion.mp4' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/uploadFileBtn'
+
+04-04-2025T13:24:08 - [MESSAGE][PASSED] - File 'C:\\Users\\HUY\\Downloads\\minion.mp4' sent to object: 'Object Repository/UI/Page_CreateHowl_Wolfden/uploadFileBtn'
+
+04-04-2025T13:24:08 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_CreateHowl_Wolfden/howlBtn")): Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_CreateHowl_Wolfden/howlBtn' is clicked on
+
+04-04-2025T13:24:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-04-2025T13:24:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T13:24:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/yourHowlWasSentTxt"), "Your Howl was sent"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:24:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasSentTxt' are matched.
+
+04-04-2025T13:24:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/displayNameTxt"), "nguyenqhuy7531"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:24:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T13:24:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/usernameTxt"), "@nguyenqhuy753101"): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:24:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/usernameTxt' are matched.
+
+04-04-2025T13:24:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Howl_Wolfden/enteredTextTxt"), text): Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/enteredTextTxt' are matched.
+
+04-04-2025T13:24:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/enteredTextTxt' are matched.
+
+04-04-2025T13:24:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Page_Howl_Wolfden/uploadedVideo"), 0): Object 'Object Repository/UI/Page_Howl_Wolfden/uploadedVideo' is present
+
+04-04-2025T13:24:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2025T13:24:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Page_Howl_Wolfden/uploadedVideo' is present
+
+04-04-2025T13:24:14 - [TEST_STEP][PASSED] - howlpackage.howlkeyword.deleteHowl(): howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/moreOptionBtn' is hovered
+
+04-04-2025T13:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteBtn' is clicked on
+
+04-04-2025T13:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Howl_Wolfden/deleteConfirmationBtn' is clicked on
+
+04-04-2025T13:24:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Howl_Wolfden/yourHowlWasDeletedTxt' are matched.
+
+04-04-2025T13:24:16 - [MESSAGE][PASSED] - howlpackage.howlkeyword.deleteHowl is PASSED
+
+04-04-2025T13:24:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T13:24:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-04-2025T13:19:39 - [TEST_SUITE][PASSED] - CreateHowl: Test Cases/Howl/Create howl containing text and video]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>yourHowlWasSentTxt</name>
+   <tag></tag>
+   <elementGuidId>5df7c875-96c0-45e7-a00a-bf03092ac50a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='wolfden']/div[3]/span/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.items-start.flex-grow</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>span >> internal:has-text=&quot;Your Howl was sent&quot;i >> div >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8607a69c-2a45-44bd-a9a6-cfbb7466a647</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-start flex-grow</value>
+      <webElementGuid>5af4877c-39b6-4cdc-9724-9240562c6a38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Your Howl was sent </value>
+      <webElementGuid>f4be174b-f11d-4c53-8168-64e7efc14f83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wolfden&quot;)/div[@class=&quot;vue-notification-group&quot;]/span[1]/div[@class=&quot;vue-notification-wrapper&quot;]/div[@class=&quot;toastification bg-success&quot;]/div[@class=&quot;flex items-center gap-4&quot;]/div[@class=&quot;flex items-start flex-grow&quot;]</value>
+      <webElementGuid>7b2b0641-8695-44a3-a8b9-c063899956ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wolfden']/div[3]/span/div/div/div/div</value>
+      <webElementGuid>732f422f-964d-407c-98c9-a98177cfc78b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JOKER LIST'])[2]/following::div[60]</value>
+      <webElementGuid>6b46c448-f002-4f19-bb63-ce8f3c23ae42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JOKER LIST'])[1]/following::div[92]</value>
+      <webElementGuid>76bcccd7-fe03-4a16-8ba3-126dc649b968</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span/div/div/div/div</value>
+      <webElementGuid>62b04f00-69af-4827-bb3c-7e61e8a495b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Your Howl was sent ' or . = ' Your Howl was sent ')]</value>
+      <webElementGuid>f0f85270-15a3-42cb-ba9a-4a5cd2e73c67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

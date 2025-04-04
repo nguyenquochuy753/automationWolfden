@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>moreOptionBtn</name>
+   <tag></tag>
+   <elementGuidId>3fe6f42c-c4fc-47ec-914f-ba36ea8b4c8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='wolfden']/div[2]/div[2]/main/div/div[2]/div/div/div/div/div/span/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>span > div > .wd-icon >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>461f2e84-c612-4124-919f-f1ffab069fe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wd-icon text-white hover:cursor-pointer pl-3 wd-option-vertical</value>
+      <webElementGuid>7c8bc414-44a9-40ed-a848-e4128deb4e62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wolfden&quot;)/div[@class=&quot;flex w-full items-start&quot;]/div[@class=&quot;flex-1 px-2 pb-2&quot;]/main[@class=&quot;home-page&quot;]/div[@class=&quot;feed-layout&quot;]/div[@class=&quot;max-h-full overflow-auto space-y-4 py-4 pt-8&quot;]/div[@class=&quot;bg-normal-850 rounded-lg flex justify-center gap-4 w-full&quot;]/div[@class=&quot;flex flex-col w-full gap-4 p-4 cursor-pointer&quot;]/div[@class=&quot;md:max-w-[600px] w-full mx-auto&quot;]/div[@class=&quot;flex justify-between items-center&quot;]/div[@class=&quot;relative&quot;]/span[1]/div[1]/i[@class=&quot;wd-icon text-white hover:cursor-pointer pl-3 wd-option-vertical&quot;]</value>
+      <webElementGuid>7cbe33b3-b572-4d85-aee6-8603e8f98be1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wolfden']/div[2]/div[2]/main/div/div[2]/div/div/div/div/div/span/div/i</value>
+      <webElementGuid>5679431b-4b01-4879-803b-803411534bec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/i</value>
+      <webElementGuid>c8188bfc-6895-4147-90c4-062c1ab35911</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

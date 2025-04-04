@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreateHowl,Chrome 134.0.6998.179,,,04-04-2025 12:45:26,04-04-2025 12:50:04,4m - 37.593s,PASSED
+,,,,,,,
+Test Cases/Howl/Create howl containing only text,Chrome 134.0.6998.179,,,04-04-2025 12:45:27,04-04-2025 12:46:24,57.078s,PASSED
+"text = ""Test""",Chrome 134.0.6998.179,,,04-04-2025 12:45:27,04-04-2025 12:45:27,0.003s,PASSED
+"loginpackage.loginkeyword.login(""nguyenqhuy753101"", ""huy123"")",Chrome 134.0.6998.179,,,04-04-2025 12:45:27,04-04-2025 12:46:11,44.086s,PASSED
+"click(findTestObject(""UI/Page_Home_Wolfden/newHowlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:46:11,04-04-2025 12:46:15,4.215s,PASSED
+"sendKeys(findTestObject(""UI/Page_CreateHowl_Wolfden/writehowlTextbox""), text)",Chrome 134.0.6998.179,,,04-04-2025 12:46:15,04-04-2025 12:46:16,0.595s,PASSED
+"click(findTestObject(""UI/Page_CreateHowl_Wolfden/howlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:46:16,04-04-2025 12:46:16,0.381s,PASSED
+delay(2),Chrome 134.0.6998.179,,,04-04-2025 12:46:16,04-04-2025 12:46:18,2.014s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/yourHowlWasSentTxt""), ""Your Howl was sent"")",Chrome 134.0.6998.179,,,04-04-2025 12:46:18,04-04-2025 12:46:19,0.382s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/displayNameTxt""), ""nguyenqhuy7531"")",Chrome 134.0.6998.179,,,04-04-2025 12:46:19,04-04-2025 12:46:19,0.409s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/usernameTxt""), ""@nguyenqhuy753101"")",Chrome 134.0.6998.179,,,04-04-2025 12:46:19,04-04-2025 12:46:20,0.465s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/enteredTextTxt""), text)",Chrome 134.0.6998.179,,,04-04-2025 12:46:20,04-04-2025 12:46:20,0.430s,PASSED
+howlpackage.howlkeyword.deleteHowl(),Chrome 134.0.6998.179,,,04-04-2025 12:46:20,04-04-2025 12:46:23,3.410s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:46:23,04-04-2025 12:46:24,0.357s,PASSED
+,,,,,,,
+Test Cases/Howl/Create howl containing only video,Chrome 134.0.6998.179,,,04-04-2025 12:46:24,04-04-2025 12:47:21,56.856s,PASSED
+"loginpackage.loginkeyword.login(""nguyenqhuy753101"", ""huy123"")",Chrome 134.0.6998.179,,,04-04-2025 12:46:24,04-04-2025 12:47:03,39.310s,PASSED
+"click(findTestObject(""UI/Page_Home_Wolfden/newHowlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:47:03,04-04-2025 12:47:08,4.633s,PASSED
+"uploadFile(findTestObject(""UI/Page_CreateHowl_Wolfden/uploadFileBtn""), ""C:\\Users\\HUY\\Downloads\\minion.mp4"")",Chrome 134.0.6998.179,,,04-04-2025 12:47:08,04-04-2025 12:47:08,0.583s,PASSED
+delay(2),Chrome 134.0.6998.179,,,04-04-2025 12:47:08,04-04-2025 12:47:10,2.014s,PASSED
+"click(findTestObject(""UI/Page_CreateHowl_Wolfden/howlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:47:10,04-04-2025 12:47:11,0.413s,PASSED
+delay(5),Chrome 134.0.6998.179,,,04-04-2025 12:47:11,04-04-2025 12:47:16,5.018s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/yourHowlWasSentTxt""), ""Your Howl was sent"")",Chrome 134.0.6998.179,,,04-04-2025 12:47:16,04-04-2025 12:47:16,0.321s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/displayNameTxt""), ""nguyenqhuy7531"")",Chrome 134.0.6998.179,,,04-04-2025 12:47:16,04-04-2025 12:47:16,0.306s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/usernameTxt""), ""@nguyenqhuy753101"")",Chrome 134.0.6998.179,,,04-04-2025 12:47:16,04-04-2025 12:47:17,0.361s,PASSED
+"verifyElementPresent(findTestObject(""UI/Page_Howl_Wolfden/moreOptionBtn""), 0)",Chrome 134.0.6998.179,,,04-04-2025 12:47:17,04-04-2025 12:47:17,0.358s,PASSED
+"verifyElementPresent(findTestObject(""UI/Page_Howl_Wolfden/uploadedVideo""), 0)",Chrome 134.0.6998.179,,,04-04-2025 12:47:17,04-04-2025 12:47:17,0.301s,PASSED
+howlpackage.howlkeyword.deleteHowl(),Chrome 134.0.6998.179,,,04-04-2025 12:47:17,04-04-2025 12:47:20,2.784s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:47:20,04-04-2025 12:47:21,0.307s,PASSED
+,,,,,,,
+Test Cases/Howl/Create howl containning only image,Chrome 134.0.6998.179,,,04-04-2025 12:47:21,04-04-2025 12:48:17,56.773s,PASSED
+"loginpackage.loginkeyword.login(""nguyenqhuy753101"", ""huy123"")",Chrome 134.0.6998.179,,,04-04-2025 12:47:21,04-04-2025 12:48:00,39.225s,PASSED
+"click(findTestObject(""UI/Page_Home_Wolfden/newHowlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:48:00,04-04-2025 12:48:05,4.653s,PASSED
+"uploadFile(findTestObject(""UI/Page_CreateHowl_Wolfden/uploadFileBtn""), ""C:\\Users\\HUY\\Downloads\\minions.png"")",Chrome 134.0.6998.179,,,04-04-2025 12:48:05,04-04-2025 12:48:05,0.528s,PASSED
+delay(2),Chrome 134.0.6998.179,,,04-04-2025 12:48:05,04-04-2025 12:48:07,2.009s,PASSED
+"click(findTestObject(""UI/Page_CreateHowl_Wolfden/howlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:48:07,04-04-2025 12:48:07,0.331s,PASSED
+delay(5),Chrome 134.0.6998.179,,,04-04-2025 12:48:07,04-04-2025 12:48:12,5.017s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/yourHowlWasSentTxt""), ""Your Howl was sent"")",Chrome 134.0.6998.179,,,04-04-2025 12:48:12,04-04-2025 12:48:13,0.342s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/displayNameTxt""), ""nguyenqhuy7531"")",Chrome 134.0.6998.179,,,04-04-2025 12:48:13,04-04-2025 12:48:13,0.360s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/usernameTxt""), ""@nguyenqhuy753101"")",Chrome 134.0.6998.179,,,04-04-2025 12:48:13,04-04-2025 12:48:14,0.329s,PASSED
+"verifyElementPresent(findTestObject(""UI/Page_Howl_Wolfden/moreOptionBtn""), 0)",Chrome 134.0.6998.179,,,04-04-2025 12:48:14,04-04-2025 12:48:14,0.337s,PASSED
+"verifyElementPresent(findTestObject(""UI/Page_Howl_Wolfden/uploadedImage""), 0)",Chrome 134.0.6998.179,,,04-04-2025 12:48:14,04-04-2025 12:48:14,0.308s,PASSED
+howlpackage.howlkeyword.deleteHowl(),Chrome 134.0.6998.179,,,04-04-2025 12:48:14,04-04-2025 12:48:17,2.914s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:48:17,04-04-2025 12:48:17,0.297s,PASSED
+,,,,,,,
+Test Cases/Howl/Create howl containing text and image,Chrome 134.0.6998.179,,,04-04-2025 12:48:17,04-04-2025 12:49:10,52.733s,PASSED
+"text = ""Test""",Chrome 134.0.6998.179,,,04-04-2025 12:48:17,04-04-2025 12:48:17,0.000s,PASSED
+"loginpackage.loginkeyword.login(""nguyenqhuy753101"", ""huy123"")",Chrome 134.0.6998.179,,,04-04-2025 12:48:17,04-04-2025 12:48:57,39.744s,PASSED
+"click(findTestObject(""UI/Page_Home_Wolfden/newHowlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:48:57,04-04-2025 12:49:01,4.229s,PASSED
+"sendKeys(findTestObject(""UI/Page_CreateHowl_Wolfden/writehowlTextbox""), text)",Chrome 134.0.6998.179,,,04-04-2025 12:49:01,04-04-2025 12:49:02,0.544s,PASSED
+"uploadFile(findTestObject(""UI/Page_CreateHowl_Wolfden/uploadFileBtn""), ""C:\\Users\\HUY\\Downloads\\minions.png"")",Chrome 134.0.6998.179,,,04-04-2025 12:49:02,04-04-2025 12:49:02,0.330s,PASSED
+"click(findTestObject(""UI/Page_CreateHowl_Wolfden/howlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:49:02,04-04-2025 12:49:03,0.623s,PASSED
+delay(2),Chrome 134.0.6998.179,,,04-04-2025 12:49:03,04-04-2025 12:49:05,2.011s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/yourHowlWasSentTxt""), ""Your Howl was sent"")",Chrome 134.0.6998.179,,,04-04-2025 12:49:05,04-04-2025 12:49:06,0.834s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/displayNameTxt""), ""nguyenqhuy7531"")",Chrome 134.0.6998.179,,,04-04-2025 12:49:06,04-04-2025 12:49:06,0.315s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/usernameTxt""), ""@nguyenqhuy753101"")",Chrome 134.0.6998.179,,,04-04-2025 12:49:06,04-04-2025 12:49:06,0.353s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/enteredTextTxt""), text)",Chrome 134.0.6998.179,,,04-04-2025 12:49:06,04-04-2025 12:49:07,0.318s,PASSED
+"verifyElementPresent(findTestObject(""UI/Page_Howl_Wolfden/uploadedImage""), 0)",Chrome 134.0.6998.179,,,04-04-2025 12:49:07,04-04-2025 12:49:07,0.308s,PASSED
+howlpackage.howlkeyword.deleteHowl(),Chrome 134.0.6998.179,,,04-04-2025 12:49:07,04-04-2025 12:49:10,2.685s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:49:10,04-04-2025 12:49:10,0.324s,PASSED
+,,,,,,,
+Test Cases/Howl/Create howl containing text and video,Chrome 134.0.6998.179,,,04-04-2025 12:49:10,04-04-2025 12:50:04,53.825s,PASSED
+"text = ""Test""",Chrome 134.0.6998.179,,,04-04-2025 12:49:10,04-04-2025 12:49:10,0.000s,PASSED
+"loginpackage.loginkeyword.login(""nguyenqhuy753101"", ""huy123"")",Chrome 134.0.6998.179,,,04-04-2025 12:49:10,04-04-2025 12:49:50,39.674s,PASSED
+"click(findTestObject(""UI/Page_Home_Wolfden/newHowlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:49:50,04-04-2025 12:49:54,4.571s,PASSED
+"sendKeys(findTestObject(""UI/Page_CreateHowl_Wolfden/writehowlTextbox""), text)",Chrome 134.0.6998.179,,,04-04-2025 12:49:54,04-04-2025 12:49:55,0.489s,PASSED
+"uploadFile(findTestObject(""UI/Page_CreateHowl_Wolfden/uploadFileBtn""), ""C:\\Users\\HUY\\Downloads\\minion.mp4"")",Chrome 134.0.6998.179,,,04-04-2025 12:49:55,04-04-2025 12:49:55,0.310s,PASSED
+"click(findTestObject(""UI/Page_CreateHowl_Wolfden/howlBtn""))",Chrome 134.0.6998.179,,,04-04-2025 12:49:55,04-04-2025 12:49:56,0.567s,PASSED
+delay(2),Chrome 134.0.6998.179,,,04-04-2025 12:49:56,04-04-2025 12:49:58,2.017s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/yourHowlWasSentTxt""), ""Your Howl was sent"")",Chrome 134.0.6998.179,,,04-04-2025 12:49:58,04-04-2025 12:50:00,1.945s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/displayNameTxt""), ""nguyenqhuy7531"")",Chrome 134.0.6998.179,,,04-04-2025 12:50:00,04-04-2025 12:50:00,0.315s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/usernameTxt""), ""@nguyenqhuy753101"")",Chrome 134.0.6998.179,,,04-04-2025 12:50:00,04-04-2025 12:50:00,0.343s,PASSED
+"verifyElementText(findTestObject(""UI/Page_Howl_Wolfden/enteredTextTxt""), text)",Chrome 134.0.6998.179,,,04-04-2025 12:50:00,04-04-2025 12:50:01,0.320s,PASSED
+"verifyElementPresent(findTestObject(""UI/Page_Howl_Wolfden/uploadedVideo""), 0)",Chrome 134.0.6998.179,,,04-04-2025 12:50:01,04-04-2025 12:50:01,0.271s,PASSED
+howlpackage.howlkeyword.deleteHowl(),Chrome 134.0.6998.179,,,04-04-2025 12:50:01,04-04-2025 12:50:04,2.617s,PASSED
+closeBrowser(),Chrome 134.0.6998.179,,,04-04-2025 12:50:04,04-04-2025 12:50:04,0.290s,PASSED

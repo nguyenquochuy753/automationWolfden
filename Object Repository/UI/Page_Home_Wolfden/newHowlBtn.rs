@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>newHowlBtn</name>
+   <tag></tag>
+   <elementGuidId>e0f62b60-6b26-4ac7-ac3c-ece847a84657</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;New howl Plus&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>90d3c634-188a-43a7-9ef5-5e6a6c5d8e7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f57184e2-b3f9-45d2-a62b-68799c312321</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>block</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>9da5a442-a5c7-4fcd-ada6-14090513c642</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fontweight</name>
+      <type>Main</type>
+      <value>regular</value>
+      <webElementGuid>8750131e-7d4d-4e94-b269-a78e30d258a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>xl:!flex items-center gap-3 !hidden !rounded-xl button block regular</value>
+      <webElementGuid>fadceffc-608d-4168-82f7-857fdfc655d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            New howl
+           </value>
+      <webElementGuid>9ed6d3f7-42ae-41b9-9760-56f306f0b282</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wolfden&quot;)/div[@class=&quot;flex w-full items-start&quot;]/div[@class=&quot;left-bar px-2 z-10&quot;]/div[@class=&quot;h-full py-1 w-full xl:max-w-[300px] max-w-[64px] bg-normal-700 border border-normal-500 rounded-lg overflow-y-auto overscroll-contain&quot;]/div[@class=&quot;my-2 mx-[18px] relative z-[5]&quot;]/button[@class=&quot;xl:!flex items-center gap-3 !hidden !rounded-xl button block regular&quot;]</value>
+      <webElementGuid>679b4bfb-2e79-4b67-9059-ba1b94a19a10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>09b00fd3-469b-4974-992a-cf60457fd0ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wolfden']/div[2]/div/div/div/button</value>
+      <webElementGuid>0e718265-c532-417a-ae9a-11344659548b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No results found.'])[1]/following::button[1]</value>
+      <webElementGuid>28ac6f17-f544-497e-9092-bb8ef65b57b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::button[1]</value>
+      <webElementGuid>83e64ee0-c6e7-4023-a300-f6f75ef57fe1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Howls'])[1]/preceding::button[1]</value>
+      <webElementGuid>b08dac4c-6f74-4b35-bd3e-2492866e807e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tips'])[1]/preceding::button[1]</value>
+      <webElementGuid>a94f7f59-ae9e-4325-84c8-7463d6517977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>4cd4724b-28fd-413b-8bb3-214df0efea1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+            New howl
+           ' or . = '
+            New howl
+           ')]</value>
+      <webElementGuid>cfaa9c09-65e0-4fec-9cd3-d7e32fea5538</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,41 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'authorizepackage.authorizekeyword.authorize'('racebook')
+CustomKeywords.'loginpackage.loginkeyword.login'('nguyenqhuy753101', 'huy123')
 
-WebUI.setText(findTestObject('UI/Page_Login - Wolfden/usernameInput'), 'nguyenquochuy7531111')
+WebUI.click(findTestObject('UI/Page_Home_Wolfden/newHowlBtn'))
 
-WebUI.delay(5)
+WebUI.uploadFile(findTestObject('UI/Page_CreateHowl_Wolfden/uploadFileBtn'), 'C:\\\\Users\\\\HUY\\\\Downloads\\\\minion.mp4')
 
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'h')
+WebUI.delay(2)
 
-WebUI.delay(0.5)
-
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'u')
-
-WebUI.delay(0.5)
-
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'y')
-
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), '1')
-
-WebUI.delay(0.5)
-
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), '2')
-
-WebUI.delay(0.5)
-
-WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), '3')
-
-WebUI.delay(0.5)
+WebUI.click(findTestObject('UI/Page_CreateHowl_Wolfden/howlBtn'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('UI/Page_Login - Wolfden/loginBtn'))
+WebUI.verifyElementText(findTestObject('UI/Page_Howl_Wolfden/yourHowlWasSentTxt'), 'Your Howl was sent')
 
-WebUI.delay(3)
+WebUI.verifyElementText(findTestObject('UI/Page_Howl_Wolfden/displayNameTxt'), 'nguyenqhuy7531')
 
-WebUI.verifyElementText(findTestObject('UI/Page_Login - Wolfden/invalidUsernameOrPassword'), 'Invalid username or password.')
+WebUI.verifyElementText(findTestObject('UI/Page_Howl_Wolfden/usernameTxt'), '@nguyenqhuy753101')
+
+WebUI.verifyElementPresent(findTestObject('UI/Page_Howl_Wolfden/moreOptionBtn'), 0)
+
+WebUI.verifyElementPresent(findTestObject('UI/Page_Howl_Wolfden/uploadedVideo'), 0)
+
+CustomKeywords.'howlpackage.howlkeyword.deleteHowl'()
 
 WebUI.closeBrowser()
 

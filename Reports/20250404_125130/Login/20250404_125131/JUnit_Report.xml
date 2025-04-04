@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="191.29" tests="8" failures="0" errors="0">
+   <testsuite name="Login" tests="8" failures="0" errors="0" time="191.29" skipped="0" timestamp="04-04-2025T12:51:35" hostname="HUY - LAPTOP-HFM62E22" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\HUY\\git\\automationWolfden\\Reports\\20250404_125130\\Login\\20250404_125131"/>
+         <property name="logFiles" value="C:\\Users\\HUY\\git\\automationWolfden\\Reports\\20250404_125130\\Login\\20250404_125131\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HUY - LAPTOP-HFM62E22"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.179"/>
+         <property name="hostAddress" value="192.168.1.14"/>
+         <property name="sessionId" value="5617222981cf70e333accaed6593875c"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login with empty username and password" time="18.181" classname="Test Cases/Login/Login with empty username and password" status="PASSED">
+         <system-out><![CDATA[04-04-2025T12:51:36 - [TEST_CASE][PASSED] - Test Cases/Login/Login with empty username and password: Test Cases/Login/Login with empty username and password
+
+04-04-2025T12:51:36 - [TEST_STEP][PASSED] - authorizepackage.authorizekeyword.authorize("racebook"): authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:51:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T12:51:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T12:51:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T12:51:39 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T12:51:43 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T12:51:45 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T12:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T12:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:51:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T12:51:51 - [MESSAGE][PASSED] - authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:51:51 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/loginBtn")): Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:51:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Login - Wolfden/requiredUsernameTxt"), "Username is required"): Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/requiredUsernameTxt' are matched.
+
+04-04-2025T12:51:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/requiredUsernameTxt' are matched.
+
+04-04-2025T12:51:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Login - Wolfden/requiredPasswordTxt"), "Password is required"): Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/requiredPasswordTxt' are matched.
+
+04-04-2025T12:51:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/requiredPasswordTxt' are matched.
+
+04-04-2025T12:51:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T12:51:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login with the empty password" time="15.924" classname="Test Cases/Login/Login with the empty password" status="PASSED">
+         <system-out><![CDATA[04-04-2025T12:51:54 - [TEST_CASE][PASSED] - Test Cases/Login/Login with the empty password: Test Cases/Login/Login with the empty password
+
+04-04-2025T12:51:54 - [TEST_STEP][PASSED] - authorizepackage.authorizekeyword.authorize("racebook"): authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:51:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T12:51:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T12:51:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T12:51:56 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T12:51:59 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T12:52:02 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T12:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T12:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T12:52:08 - [MESSAGE][PASSED] - authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:52:08 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_Login - Wolfden/usernameInput"), "gggggggggg"): Text 'gggggggggg' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:52:08 - [MESSAGE][PASSED] - Text 'gggggggggg' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:52:08 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/loginBtn")): Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Login - Wolfden/requiredPasswordTxt"), "Password is required"): Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/requiredPasswordTxt' are matched.
+
+04-04-2025T12:52:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/requiredPasswordTxt' are matched.
+
+04-04-2025T12:52:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T12:52:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login with the empty username" time="14.188" classname="Test Cases/Login/Login with the empty username" status="PASSED">
+         <system-out><![CDATA[04-04-2025T12:52:10 - [TEST_CASE][PASSED] - Test Cases/Login/Login with the empty username: Test Cases/Login/Login with the empty username
+
+04-04-2025T12:52:10 - [TEST_STEP][PASSED] - authorizepackage.authorizekeyword.authorize("racebook"): authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:52:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T12:52:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T12:52:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T12:52:11 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T12:52:14 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T12:52:17 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T12:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T12:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T12:52:22 - [MESSAGE][PASSED] - authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:52:22 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_Login - Wolfden/passwordInput"), "huy123"): Text 'huy123' is set on object 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:23 - [MESSAGE][PASSED] - Text 'huy123' is set on object 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:23 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/loginBtn")): Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Login - Wolfden/requiredUsernameTxt"), "Username is required"): Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/requiredUsernameTxt' are matched.
+
+04-04-2025T12:52:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/requiredUsernameTxt' are matched.
+
+04-04-2025T12:52:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T12:52:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login with the password less than six characters" time="14.483" classname="Test Cases/Login/Login with the password less than six characters" status="PASSED">
+         <system-out><![CDATA[04-04-2025T12:52:24 - [TEST_CASE][PASSED] - Test Cases/Login/Login with the password less than six characters: Test Cases/Login/Login with the password less than six characters
+
+04-04-2025T12:52:24 - [TEST_STEP][PASSED] - authorizepackage.authorizekeyword.authorize("racebook"): authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:52:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T12:52:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T12:52:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T12:52:25 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T12:52:28 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T12:52:31 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T12:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T12:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T12:52:36 - [MESSAGE][PASSED] - authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:52:36 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_Login - Wolfden/usernameInput"), "nguyenqhuy75310111"): Text 'nguyenqhuy75310111' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:52:36 - [MESSAGE][PASSED] - Text 'nguyenqhuy75310111' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:52:36 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_Login - Wolfden/passwordInput"), "huy12"): Text 'huy12' is set on object 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:37 - [MESSAGE][PASSED] - Text 'huy12' is set on object 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:37 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/loginBtn")): Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Login - Wolfden/passwordLarger6CharactersTxt"), "Password must be at least 6 character"): Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/passwordLarger6CharactersTxt' are matched.
+
+04-04-2025T12:52:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/passwordLarger6CharactersTxt' are matched.
+
+04-04-2025T12:52:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T12:52:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Password is encrypted" time="25.061" classname="Test Cases/Login/Password is encrypted" status="PASSED">
+         <system-out><![CDATA[04-04-2025T12:52:38 - [TEST_CASE][PASSED] - Test Cases/Login/Password is encrypted: Test Cases/Login/Password is encrypted
+
+04-04-2025T12:52:38 - [TEST_STEP][PASSED] - authorizepackage.authorizekeyword.authorize("racebook"): authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:52:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T12:52:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T12:52:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T12:52:40 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T12:52:46 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T12:52:47 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T12:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T12:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:52:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T12:52:52 - [MESSAGE][PASSED] - authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:52:52 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_Login - Wolfden/usernameInput"), "nguyenquochuy753101"): Text 'nguyenquochuy753101' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:52:53 - [MESSAGE][PASSED] - Text 'nguyenquochuy753101' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:52:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-04-2025T12:52:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-04-2025T12:52:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "h"): Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:56 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:56 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:52:57 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:52:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "u"): Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:57 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:57 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:52:58 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:52:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "y"): Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:58 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "1"): Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:58 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:58 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:52:59 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:52:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "2"): Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:59 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:52:59 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:52:59 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:52:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "3"): Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:00 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:00 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:00 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "1"): Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:01 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:01 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:01 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "1"): Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:01 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:01 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:02 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Page_Login - Wolfden/passwordInput"), 0): Object 'Object Repository/UI/Page_Login - Wolfden/passwordInput' is present
+
+04-04-2025T12:53:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2025T12:53:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Page_Login - Wolfden/passwordInput' is present
+
+04-04-2025T12:53:02 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/visiblePasswordIcon")): Object: 'Object Repository/UI/Page_Login - Wolfden/visiblePasswordIcon' is clicked on
+
+04-04-2025T12:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/visiblePasswordIcon' is clicked on
+
+04-04-2025T12:53:03 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("UI/Page_Login - Wolfden/passwordInput"), 0): Web element with id: 'Object Repository/UI/Page_Login - Wolfden/passwordInput' located by 'By.xpath: //input[@type='password']' is not present after '30' second(s)
+
+04-04-2025T12:53:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-04-2025T12:53:03 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Page_Login - Wolfden/passwordInput' located by 'By.xpath: //input[@type='password']' is not present after '30' second(s)
+
+04-04-2025T12:53:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T12:53:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login with wrong username" time="32.144" classname="Test Cases/Login/Login with wrong username" status="PASSED">
+         <system-out><![CDATA[04-04-2025T12:53:03 - [TEST_CASE][PASSED] - Test Cases/Login/Login with wrong username: Test Cases/Login/Login with wrong username
+
+04-04-2025T12:53:04 - [TEST_STEP][PASSED] - authorizepackage.authorizekeyword.authorize("racebook"): authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:53:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T12:53:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T12:53:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T12:53:05 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T12:53:08 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T12:53:11 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T12:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T12:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:53:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T12:53:16 - [MESSAGE][PASSED] - authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:53:16 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_Login - Wolfden/usernameInput"), "nguyenquochuy7531111"): Text 'nguyenquochuy7531111' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:53:17 - [MESSAGE][PASSED] - Text 'nguyenquochuy7531111' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:53:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-04-2025T12:53:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T12:53:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "h"): Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:22 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:22 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:23 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "u"): Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:23 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:23 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:24 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "y"): Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:24 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "1"): Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:24 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:24 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:25 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "2"): Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:25 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:25 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:26 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "3"): Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:26 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:26 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:27 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-04-2025T12:53:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T12:53:32 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/loginBtn")): Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:53:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-04-2025T12:53:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-04-2025T12:53:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Login - Wolfden/invalidUsernameOrPassword"), "Invalid username or password."): Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/invalidUsernameOrPassword' are matched.
+
+04-04-2025T12:53:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/invalidUsernameOrPassword' are matched.
+
+04-04-2025T12:53:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T12:53:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login with wrong password" time="32.407" classname="Test Cases/Login/Login with wrong password" status="PASSED">
+         <system-out><![CDATA[04-04-2025T12:53:36 - [TEST_CASE][PASSED] - Test Cases/Login/Login with wrong password: Test Cases/Login/Login with wrong password
+
+04-04-2025T12:53:36 - [TEST_STEP][PASSED] - authorizepackage.authorizekeyword.authorize("racebook"): authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:53:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T12:53:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T12:53:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T12:53:37 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T12:53:40 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T12:53:43 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T12:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T12:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:53:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T12:53:48 - [MESSAGE][PASSED] - authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:53:48 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_Login - Wolfden/usernameInput"), "nguyenquochuy753101"): Text 'nguyenquochuy753101' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:53:49 - [MESSAGE][PASSED] - Text 'nguyenquochuy753101' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:53:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-04-2025T12:53:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T12:53:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "h"): Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:54 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:54 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:55 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "u"): Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:55 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:55 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:55 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "y"): Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:56 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "1"): Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:56 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:56 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:57 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "2"): Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:57 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:57 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:57 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "3"): Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:58 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:58 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:58 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "1"): Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:59 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:59 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:53:59 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:53:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "1"): Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:59 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:53:59 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:54:00 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:54:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-04-2025T12:54:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T12:54:05 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/loginBtn")): Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:54:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-04-2025T12:54:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T12:54:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Login - Wolfden/invalidUsernameOrPassword"), "Invalid username or password."): Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/invalidUsernameOrPassword' are matched.
+
+04-04-2025T12:54:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Login - Wolfden/invalidUsernameOrPassword' are matched.
+
+04-04-2025T12:54:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T12:54:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login with the valid credentials" time="38.63" classname="Test Cases/Login/Login with the valid credentials" status="PASSED">
+         <system-out><![CDATA[04-04-2025T12:54:08 - [TEST_CASE][PASSED] - Test Cases/Login/Login with the valid credentials: Test Cases/Login/Login with the valid credentials
+
+04-04-2025T12:54:08 - [TEST_STEP][PASSED] - authorizepackage.authorizekeyword.authorize("racebook"): authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:54:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-04-2025T12:54:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-04-2025T12:54:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-04-2025T12:54:09 - [MESSAGE][PASSED] - Current window maximized
+
+04-04-2025T12:54:12 - [MESSAGE][PASSED] - Navigate to 'https://dev.wolfden.win/' successfully
+
+04-04-2025T12:54:15 - [MESSAGE][PASSED] - Text 'racebook' is set on object 'Object Repository/UI/Page_Authorize - Wolfden/authorizeInput'
+
+04-04-2025T12:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Authorize - Wolfden/submitBtn' is clicked on
+
+04-04-2025T12:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:54:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-04-2025T12:54:20 - [MESSAGE][PASSED] - authorizepackage.authorizekeyword.authorize is PASSED
+
+04-04-2025T12:54:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-04-2025T12:54:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T12:54:25 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/usernameInput")): Object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput' is clicked on
+
+04-04-2025T12:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/usernameInput' is clicked on
+
+04-04-2025T12:54:26 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Page_Login - Wolfden/usernameInput"), "nguyenqhuy753101"): Text 'nguyenqhuy753101' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:54:26 - [MESSAGE][PASSED] - Text 'nguyenqhuy753101' is set on object 'Object Repository/UI/Page_Login - Wolfden/usernameInput'
+
+04-04-2025T12:54:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-04-2025T12:54:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T12:54:31 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/passwordInput")): Object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput' is clicked on
+
+04-04-2025T12:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput' is clicked on
+
+04-04-2025T12:54:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "h"): Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:32 - [MESSAGE][PASSED] - Keys 'h' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:32 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:54:32 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:54:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "u"): Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:33 - [MESSAGE][PASSED] - Keys 'u' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:33 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:54:33 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:54:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "y"): Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:33 - [MESSAGE][PASSED] - Keys 'y' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "1"): Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:34 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:34 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:54:34 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:54:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "2"): Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:35 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:35 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+04-04-2025T12:54:35 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+04-04-2025T12:54:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UI/Page_Login - Wolfden/passwordInput"), "3"): Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:35 - [MESSAGE][PASSED] - Keys '3' sent to object: 'Object Repository/UI/Page_Login - Wolfden/passwordInput'
+
+04-04-2025T12:54:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-04-2025T12:54:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-04-2025T12:54:40 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Login - Wolfden/loginBtn")): Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Login - Wolfden/loginBtn' is clicked on
+
+04-04-2025T12:54:41 - [TEST_STEP][PASSED] - click(findTestObject("UI/Page_Home_Wolfden/profileNavigation")): Object: 'Object Repository/UI/Page_Home_Wolfden/profileNavigation' is clicked on
+
+04-04-2025T12:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Page_Home_Wolfden/profileNavigation' is clicked on
+
+04-04-2025T12:54:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Profile_Wolfden/displayNameTxt"), "nguyenqhuy7531"): Actual text and expected text of test object 'Object Repository/UI/Page_Profile_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T12:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Profile_Wolfden/displayNameTxt' are matched.
+
+04-04-2025T12:54:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Page_Profile_Wolfden/usernameTxt"), "@nguyenqhuy753101"): Actual text and expected text of test object 'Object Repository/UI/Page_Profile_Wolfden/usernameTxt' are matched.
+
+04-04-2025T12:54:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Page_Profile_Wolfden/usernameTxt' are matched.
+
+04-04-2025T12:54:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-04-2025T12:54:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-04-2025T12:51:35 - [TEST_SUITE][PASSED] - Login: Test Cases/Login/Login with the valid credentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

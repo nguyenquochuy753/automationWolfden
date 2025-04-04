@@ -21,7 +21,7 @@ CustomKeywords.'authorizepackage.authorizekeyword.authorize'('racebook')
 
 WebUI.setText(findTestObject('UI/Page_Login - Wolfden/usernameInput'), 'nguyenquochuy753101')
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwordInput'), 'h')
 
@@ -53,13 +53,11 @@ WebUI.sendKeys(findTestObject('Object Repository/UI/Page_Login - Wolfden/passwor
 
 WebUI.delay(0.5)
 
-WebUI.delay(5)
+WebUI.verifyElementPresent(findTestObject('UI/Page_Login - Wolfden/passwordInput'), 0)
 
-WebUI.click(findTestObject('UI/Page_Login - Wolfden/loginBtn'))
+WebUI.click(findTestObject('UI/Page_Login - Wolfden/visiblePasswordIcon'))
 
-WebUI.delay(2)
-
-WebUI.verifyElementText(findTestObject('UI/Page_Login - Wolfden/invalidUsernameOrPassword'), 'Invalid username or password.')
+WebUI.verifyElementNotPresent(findTestObject('UI/Page_Login - Wolfden/passwordInput'), 0)
 
 WebUI.closeBrowser()
 

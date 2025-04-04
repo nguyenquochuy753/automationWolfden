@@ -40,6 +40,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>c3fbe235-cbeb-439d-b0e5-86b23f4faa4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Password is encrypted</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>3d2c1d75-5d64-4422-8e80-668f1e29b6f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
